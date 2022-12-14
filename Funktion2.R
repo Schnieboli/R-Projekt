@@ -11,12 +11,12 @@ fun2 <- function(x) {
   e<- sum (Datensatz$MatheLK == "ja") # Anteil der Studenten, die vorher einen MatheLK belegt hatten
   f<- sum(Datensatz$MatheLK == "nein")
   
-  cat("\n" ,"Anzahl der Studierenden in dem Studienfach Statistik",a)
-  cat("\n" ,"Anzahl der Studierenden in dem Studienfach Data Science",b)
-  cat("\n" ,"Anzahl der Studierenden in dem Studienfach Mathe",c)
-  cat("\n" ,"Anzahl der Studierenden in dem Studienfach Informatik", d)
+  cat("\n" ,"Anzahl der Studierenden in dem Studienfach Statistik      " ,a)
+  cat("\n" ,"Anzahl der Studierenden in dem Studienfach Data Science   " ,b)
+  cat("\n" ,"Anzahl der Studierenden in dem Studienfach Mathe          ", c)
+  cat("\n" ,"Anzahl der Studierenden in dem Studienfach Informatik     ", d)
   cat("\n")
-  cat("\n", "Anzahl der Studierenden, die einen Mathe LK belegt hatten", e)
+  cat("\n", "Anzahl der Studierenden, die einen Mathe LK belegt hatten ", e)
   
   # Ausgabe einer Übersicht der einzelnen Anteile an der Grundgesamtheit
 }
