@@ -1,101 +1,101 @@
-,Alter,Studienfach,Int_Mathe,Int_Programmieren,MatheLK
-1,22,Statistik,6,5,1
-2,26,Data Science,4,5,0
-3,23,Mathe,6,2,1
-4,23,Informatik,5,7,1
-5,25,Data Science,3,5,1
-6,24,Informatik,6,7,1
-7,23,Data Science,4,7,1
-8,25,Statistik,6,6,1
-9,26,Statistik,7,5,1
-10,21,Data Science,6,6,1
-11,25,Statistik,6,5,1
-12,25,Mathe,7,4,1
-13,20,Data Science,2,6,1
-14,24,Statistik,6,7,1
-15,23,Data Science,6,6,1
-16,23,Data Science,4,6,1
-17,20,Statistik,7,7,0
-18,24,Informatik,5,5,1
-19,28,Informatik,7,7,1
-20,25,Mathe,7,6,1
-21,24,Informatik,3,7,1
-22,24,Informatik,2,7,1
-23,25,Data Science,5,6,1
-24,25,Data Science,5,7,1
-25,21,Statistik,5,4,1
-26,26,Data Science,6,7,1
-27,25,Statistik,6,3,1
-28,23,Informatik,5,6,1
-29,25,Informatik,5,7,1
-30,24,Informatik,4,6,1
-31,24,Data Science,5,6,1
-32,23,Informatik,7,5,0
-33,22,Data Science,6,5,1
-34,25,Mathe,7,4,1
-35,22,Data Science,6,6,1
-36,20,Informatik,5,7,1
-37,28,Informatik,5,7,1
-38,26,Informatik,4,7,0
-39,25,Statistik,5,5,1
-40,20,Mathe,7,4,1
-41,24,Statistik,6,6,1
-42,27,Informatik,5,6,1
-43,24,Statistik,7,5,1
-44,28,Data Science,3,6,1
-45,23,Informatik,4,5,1
-46,25,Informatik,6,6,1
-47,25,Informatik,6,7,1
-48,27,Statistik,6,7,1
-49,26,Data Science,5,6,1
-50,24,Informatik,4,6,1
-51,23,Mathe,7,5,1
-52,25,Data Science,4,5,1
-53,26,Data Science,6,7,0
-54,26,Statistik,7,5,1
-55,25,Informatik,5,5,1
-56,22,Data Science,6,5,1
-57,24,Informatik,4,5,1
-58,27,Data Science,4,7,1
-59,26,Mathe,5,7,1
-60,24,Statistik,6,6,0
-61,24,Informatik,3,6,1
-62,27,Data Science,4,6,0
-63,25,Informatik,6,7,1
-64,25,Statistik,5,3,1
-65,23,Statistik,5,6,1
-66,25,Statistik,7,6,1
-67,26,Informatik,5,5,1
-68,26,Statistik,5,5,1
-69,28,Data Science,6,4,0
-70,25,Informatik,3,6,1
-71,23,Mathe,6,6,1
-72,27,Informatik,5,5,1
-73,20,Mathe,7,5,1
-74,22,Data Science,5,4,1
-75,22,Statistik,7,3,0
-76,28,Statistik,6,3,1
-77,27,Informatik,5,7,1
-78,25,Mathe,7,3,1
-79,25,Informatik,4,6,1
-80,24,Statistik,4,6,1
-81,26,Statistik,7,7,1
-82,21,Data Science,5,5,1
-83,23,Informatik,6,7,0
-84,21,Statistik,6,4,1
-85,24,Data Science,6,7,0
-86,23,Mathe,6,6,1
-87,26,Mathe,6,4,1
-88,25,Data Science,3,7,1
-89,25,Data Science,4,6,1
-90,27,Mathe,7,5,0
-91,22,Informatik,3,7,1
-92,25,Informatik,5,7,1
-93,25,Data Science,6,3,1
-94,29,Statistik,7,4,1
-95,28,Statistik,5,4,0
-96,24,Data Science,4,6,1
-97,27,Mathe,6,5,1
-98,25,Informatik,6,6,1
-99,24,Data Science,4,6,0
-100,27,Statistik,6,6,1
+ID,Alter,Studienfach,Int_Mathe,Int_Programmieren,MatheLK
+1,19,Statistik,6,5,ja
+2,27,Data Science,4,5,nein
+3,21,Mathe,6,2,ja
+4,22,Informatik,5,7,ja
+5,25,Data Science,3,5,ja
+6,23,Informatik,6,7,ja
+7,22,Data Science,4,7,ja
+8,25,Statistik,6,6,ja
+9,27,Statistik,7,5,ja
+10,17,Data Science,6,6,ja
+11,26,Statistik,6,5,ja
+12,25,Mathe,7,4,ja
+13,15,Data Science,2,6,ja
+14,23,Statistik,6,7,ja
+15,21,Data Science,6,6,ja
+16,22,Data Science,4,6,ja
+17,16,Statistik,7,7,nein
+18,24,Informatik,5,5,ja
+19,31,Informatik,7,7,ja
+20,25,Mathe,7,6,ja
+21,23,Informatik,3,7,ja
+22,24,Informatik,2,7,ja
+23,26,Data Science,5,6,ja
+24,26,Data Science,5,7,ja
+25,18,Statistik,5,4,ja
+26,27,Data Science,6,7,ja
+27,25,Statistik,6,3,ja
+28,22,Informatik,5,6,ja
+29,25,Informatik,5,7,ja
+30,23,Informatik,4,6,ja
+31,24,Data Science,5,6,ja
+32,21,Informatik,7,5,nein
+33,19,Data Science,6,5,ja
+34,25,Mathe,7,4,ja
+35,19,Data Science,6,6,ja
+36,16,Informatik,5,7,ja
+37,32,Informatik,5,7,ja
+38,28,Informatik,4,7,nein
+39,26,Statistik,5,5,ja
+40,15,Mathe,7,4,ja
+41,23,Statistik,6,6,ja
+42,30,Informatik,5,6,ja
+43,24,Statistik,7,5,ja
+44,31,Data Science,3,6,ja
+45,22,Informatik,4,5,ja
+46,26,Informatik,6,6,ja
+47,25,Informatik,6,7,ja
+48,29,Statistik,6,7,ja
+49,27,Data Science,5,6,ja
+50,24,Informatik,4,6,ja
+51,22,Mathe,7,5,ja
+52,26,Data Science,4,5,ja
+53,27,Data Science,6,7,nein
+54,27,Statistik,7,5,ja
+55,26,Informatik,5,5,ja
+56,19,Data Science,6,5,ja
+57,23,Informatik,4,5,ja
+58,30,Data Science,4,7,ja
+59,27,Mathe,5,7,ja
+60,23,Statistik,6,6,nein
+61,24,Informatik,3,6,ja
+62,29,Data Science,4,6,nein
+63,25,Informatik,6,7,ja
+64,26,Statistik,5,3,ja
+65,22,Statistik,5,6,ja
+66,25,Statistik,7,6,ja
+67,28,Informatik,5,5,ja
+68,27,Statistik,5,5,ja
+69,31,Data Science,6,4,nein
+70,25,Informatik,3,6,ja
+71,21,Mathe,6,6,ja
+72,30,Informatik,5,5,ja
+73,15,Mathe,7,5,ja
+74,20,Data Science,5,4,ja
+75,19,Statistik,7,3,nein
+76,31,Statistik,6,3,ja
+77,30,Informatik,5,7,ja
+78,25,Mathe,7,3,ja
+79,25,Informatik,4,6,ja
+80,24,Statistik,4,6,ja
+81,28,Statistik,7,7,ja
+82,17,Data Science,5,5,ja
+83,21,Informatik,6,7,nein
+84,18,Statistik,6,4,ja
+85,24,Data Science,6,7,nein
+86,22,Mathe,6,6,ja
+87,27,Mathe,6,4,ja
+88,26,Data Science,3,7,ja
+89,25,Data Science,4,6,ja
+90,30,Mathe,7,5,nein
+91,20,Informatik,3,7,ja
+92,25,Informatik,5,7,ja
+93,26,Data Science,6,3,ja
+94,33,Statistik,7,4,ja
+95,31,Statistik,5,4,nein
+96,24,Data Science,4,6,ja
+97,29,Mathe,6,5,ja
+98,25,Informatik,6,6,ja
+99,24,Data Science,4,6,nein
+100,30,Statistik,6,6,ja
