@@ -18,10 +18,10 @@ fun2 <- function(x) {
   cat("\n")
   cat("\n", "Anzahl der Studierenden, die einen Mathe LK belegt hatten", e)
   
-  # Ausgabe einer Übersicht der einzelnen Anteile an der Grundgesamtheit
+  # Ausgabe einer Ãœbersicht der einzelnen Anteile an der Grundgesamtheit
 }
 
-fun2(x)
+
 
 
 
