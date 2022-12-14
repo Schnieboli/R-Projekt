@@ -1,4 +1,4 @@
-funktion3 <- function(){
+funktion3 <- function(Datensatz){
   
   AnteilST <- sum(Datensatz$MatheLK[Datensatz$Studienfach == "Statistik"] == "ja")/length(Datensatz$Studienfach[Datensatz$Studienfach == "Statistik"])     
   # Anteil der Studierenden im Fach Statistik die Mathe-LK hatten.
