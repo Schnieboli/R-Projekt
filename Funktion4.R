@@ -1,8 +1,14 @@
 fun4 <- function(x){
   a <- mean(Datensatz$Int_Mathe[Datensatz$MatheLK == "ja"])
-  # Durchschnittsinteresse f�r Mathematik, wenn sie Mathe-LK hatten.
+  # Durchschnittsinteresse für Mathematik, wenn sie Mathe-LK hatten.
   b <- mean(Datensatz$Int_Programmieren[Datensatz$MatheLK == "ja"])
-  # Durchschnittsinteresse f�r Programmieren, wenn sie Mathe-LK hatten.
-  cat("Das Durchschnittsinteresse an Mathematik ist ", a, ", wenn die Person Mathe-LK hatte.\nDas Durchschnittsinteresse an Programmieren ist ", b,", wenn die Person Mathe-LK hatte.", sep = "")
+  # Durchschnittsinteresse für Programmieren, wenn sie Mathe-LK hatten.
+  c <- mean(Datensatz$Int_Mathe[Datensatz$MatheLK == "nein"])
+  # Durchschnittsinteresse für Mathematik, wenn sie kein Mathe-LK hatten.
+  d <- mean(Datensatz$Int_Programmieren[Datensatz$MatheLK == "nein"])
+  # Durchschnittsinteresse für Programmieren, wenn sie kein Mathe-LK hatten.
+  cat("Das Durchschnittsinteresse an Mathematik ist ", round(a, 3), " und an Programmieren ", round(b, 3),
+      ", wenn\ndie Person Mathe-LK hatte.\nDas Durchschnittsinteresse an Mathematik ist ", round(c, 3), " und an Programmieren ist ", round(d,3),
+      ", wenn\ndie Person kein Mathe-LK hatte.", sep = "")
 }
 fun4(Datensatz)
