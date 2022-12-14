@@ -7,5 +7,3 @@ fun1 <- function(x){
       ". Das Minimum des Vektors ist", c, " und das Maximum ist", d,
       ", also ist die Range des Vektors", d-c)
 }
-fun1(x)
-x <- c(1,2,3)
