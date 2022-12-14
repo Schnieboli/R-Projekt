@@ -1,7 +1,7 @@
 
 
 fun2 <- function(x) {
-  
+  x <- Datensatz
   a<- sum(Datensatz$Studienfach == "Statistik") #Anteil der Studenten im Bereich Statistik
   b<- sum(Datensatz$Studienfach == "Data Science") #Anteil der Studenten im Bereich Data Science
   c<- sum(Datensatz$Studienfach == "Mathe") #Anteil der Studenten im Bereich Mathe
