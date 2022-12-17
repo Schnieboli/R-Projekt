@@ -1,14 +1,16 @@
 #### hier mal alle Funktionen zusammengefügt
 
 fun1 <- function(x){
-  a <- mean(x)
+  a <- mean(x) 
   b <- median(x)
   c <- min(x)
   d <- max(x)
   e <- sd(x)
+  # Berechnung verschiedener Kennwerte
   cat("Das arithmetische Mittel ist ", a, ".\nDer Median ist ", b,
       ".\nDie Standardabweichung ist ",e,".\nDas Minimum des Vektors ist ", c, ". \nDas Maximum des Vektors ist ", d,
       ". \nDie Range des Vektors ist ", d-c, ".", sep = "")
+  # Ausgabe der Ergebnisse
 }
 
 fun2 <- function(x) {
@@ -32,15 +34,15 @@ fun2 <- function(x) {
   # Ausgabe einer Übersicht der einzelnen Anteile an der Grundgesamtheit
 }
 
-fun3 <- function(Datensatz){
+fun3 <- function(x){
   
-  AnteilST <- sum(Datensatz$MatheLK[Datensatz$Studienfach == "Statistik"] == "ja")/length(Datensatz$Studienfach[Datensatz$Studienfach == "Statistik"])     
+  AnteilST <- sum(x$MatheLK[x$Studienfach == "Statistik"] == "ja")/length(x$Studienfach[x$Studienfach == "Statistik"])     
   # Anteil der Studierenden im Fach Statistik die Mathe-LK hatten.
-  AnteilDS <- sum(Datensatz$MatheLK[Datensatz$Studienfach == "Data Science"] == "ja")/length(Datensatz$Studienfach[Datensatz$Studienfach == "Data Science"])
+  AnteilDS <- sum(x$MatheLK[x$Studienfach == "Data Science"] == "ja")/length(x$Studienfach[x$Studienfach == "Data Science"])
   # Anteil der Studierenden im Fach Data Science die Mathe-LK hatten.
-  AnteilMA <- sum(Datensatz$MatheLK[Datensatz$Studienfach == "Mathe"] == "ja")/length(Datensatz$Studienfach[Datensatz$Studienfach == "Mathe"])
+  AnteilMA <- sum(x$MatheLK[x$Studienfach == "Mathe"] == "ja")/length(x$Studienfach[x$Studienfach == "Mathe"])
   # Anteil der Studierenden im Fach Mathe die Mathe-LK hatten.
-  AnteilIN <- sum(Datensatz$MatheLK[Datensatz$Studienfach == "Informatik"] == "ja")/length(Datensatz$Studienfach[Datensatz$Studienfach == "Informatik"])
+  AnteilIN <- sum(x$MatheLK[x$Studienfach == "Informatik"] == "ja")/length(x$Studienfach[x$Studienfach == "Informatik"])
   # Anteil der Studierenden im Fach Informatik die Mathe-LK hatten.
   
   cat("\n", "Der Anteil der Statistik Studierenden die den Mathe-LK belegt haben beträgt:    ", AnteilST*100, "%")
@@ -61,6 +63,7 @@ fun4 <- function(x){
   # Durchschnittsinteresse für Programmieren, wenn sie kein Mathe-LK hatten.
   cat("Mit Mathe-LK:", "\nDurchschnittsinteresse Mathe:", a, "\nDurchschnittsinteresse Programmieren:", b,
       "\nOhne Mathe-LK:", "\nDurchschnittsinteresse Mathe:", c, "\nDurchschnittsinteresse Programmieren:", d)
+   # Ausgabe der Ergebnisse
 }
 
 fun5 <- function(x){
