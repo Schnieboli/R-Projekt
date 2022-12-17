@@ -1,7 +1,7 @@
 #### hier mal alle Funktionen zusammengefügt
 
 fun1 <- function(x){
-  a <- mean(x) 
+  a <- mean(x)
   b <- median(x)
   c <- min(x)
   d <- max(x)
