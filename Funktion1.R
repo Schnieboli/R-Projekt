@@ -3,8 +3,8 @@ fun1 <- function(x){
   b <- median(x)
   c <- min(x)
   d <- max(x)
-Schnieboli-patch-1-1
-  cat("Das arithmetische Mittel ist ", a, " und der Median ist ", b,
-      ". Das Minimum des Vektors ist ", c, " und das Maximum ist ", d,
-      ", also ist die Range des Vektors ", d-c, "." sep = "")
+  e <- sd(x)
+  cat("Das arithmetische Mittel ist ", a, ".\nDer Median ist ", b,
+      ".\nDie Standardabweichung ist ",e,".\nDas Minimum des Vektors ist ", c, ". \nDas Maximum des Vektors ist ", d,
+      ". \nDie Range des Vektors ist ", d-c, ".", sep = "")
 }
