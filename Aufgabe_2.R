@@ -1,0 +1,78 @@
+#### hier mal alle Funktionen zusammengefügt
+
+fun1 <- function(x){
+  a <- mean(x)
+  b <- median(x)
+  c <- min(x)
+  d <- max(x)
+  e <- sd(x)
+  cat("Das arithmetische Mittel ist ", a, ".\nDer Median ist ", b,
+      ".\nDie Standardabweichung ist ",e,".\nDas Minimum des Vektors ist ", c, ". \nDas Maximum des Vektors ist ", d,
+      ". \nDie Range des Vektors ist ", d-c, ".", sep = "")
+}
+
+fun2 <- function(x) {
+  
+  a<- sum(x$Studienfach == "Statistik") #Anteil der Studenten im Bereich Statistik
+  b<- sum(x$Studienfach == "Data Science") #Anteil der Studenten im Bereich Data Science
+  c<- sum(x$Studienfach == "Mathe") #Anteil der Studenten im Bereich Mathe
+  d<- sum(x$Studienfach == "Informatik") #Anteil der Studenten im Bereich Informatik
+  
+  
+  e<- sum (x$MatheLK == "ja") # Anteil der Studenten, die vorher einen MatheLK belegt hatten
+  f<- sum(x$MatheLK == "nein")# Anteil der Studenten, die vorher keinen MatheLK belegt hatten
+  
+  cat("\n" ,"Anzahl der Studierenden in dem Studienfach Statistik       " ,a)
+  cat("\n" ,"Anzahl der Studierenden in dem Studienfach Data Science    " ,b)
+  cat("\n" ,"Anzahl der Studierenden in dem Studienfach Mathe           ", c)
+  cat("\n" ,"Anzahl der Studierenden in dem Studienfach Informatik      ", d)
+  cat("\n")
+  cat("\n", "Anzahl der Studierenden, die einen Mathe LK belegt hatten  ", e)
+  cat("\n", "Anzahl der Studierenden, die keinen Mathe LK belegt hatten ", f)
+  # Ausgabe einer Übersicht der einzelnen Anteile an der Grundgesamtheit
+}
+
+fun3 <- function(Datensatz){
+  
+  AnteilST <- sum(Datensatz$MatheLK[Datensatz$Studienfach == "Statistik"] == "ja")/length(Datensatz$Studienfach[Datensatz$Studienfach == "Statistik"])     
+  # Anteil der Studierenden im Fach Statistik die Mathe-LK hatten.
+  AnteilDS <- sum(Datensatz$MatheLK[Datensatz$Studienfach == "Data Science"] == "ja")/length(Datensatz$Studienfach[Datensatz$Studienfach == "Data Science"])
+  # Anteil der Studierenden im Fach Data Science die Mathe-LK hatten.
+  AnteilMA <- sum(Datensatz$MatheLK[Datensatz$Studienfach == "Mathe"] == "ja")/length(Datensatz$Studienfach[Datensatz$Studienfach == "Mathe"])
+  # Anteil der Studierenden im Fach Mathe die Mathe-LK hatten.
+  AnteilIN <- sum(Datensatz$MatheLK[Datensatz$Studienfach == "Informatik"] == "ja")/length(Datensatz$Studienfach[Datensatz$Studienfach == "Informatik"])
+  # Anteil der Studierenden im Fach Informatik die Mathe-LK hatten.
+  
+  cat("\n", "Der Anteil der Statistik Studierenden die den Mathe-LK belegt haben beträgt:    ", AnteilST*100, "%")
+  cat("\n", "Der Anteil der Data Science Studierenden die den Mathe-LK belegt haben beträgt: ", AnteilDS*100, "%")
+  cat("\n", "Der Anteil der Mathematik Studierenden die den Mathe-LK belegt haben beträgt:   ", AnteilMA*100, "%")
+  cat("\n", "Der Anteil der Informatik Studierenden die den Mathe-LK belegt haben beträgt:   ", AnteilIN*100, "%")
+  # Ausgaben der Ergebnisse
+}
+
+fun4 <- function(x){
+  a <- round(mean(x$Int_Mathe[x$MatheLK == "ja"]),3)
+  # Durchschnittsinteresse für Mathematik, wenn sie Mathe-LK hatten.
+  b <- round(mean(x$Int_Programmieren[x$MatheLK == "ja"]),3)
+  # Durchschnittsinteresse für Programmieren, wenn sie Mathe-LK hatten.
+  c <- round(mean(x$Int_Mathe[x$MatheLK == "nein"]),3)
+  # Durchschnittsinteresse für Mathematik, wenn sie kein Mathe-LK hatten.
+  d <- round(mean(x$Int_Programmieren[x$MatheLK == "nein"]),3)
+  # Durchschnittsinteresse für Programmieren, wenn sie kein Mathe-LK hatten.
+  cat("Mit Mathe-LK:", "\nDurchschnittsinteresse Mathe:", a, "\nDurchschnittsinteresse Programmieren:", b,
+      "\nOhne Mathe-LK:", "\nDurchschnittsinteresse Mathe:", c, "\nDurchschnittsinteresse Programmieren:", d)
+}
+
+fun5 <- function(x){
+  # Obere und untere Grenze werden festgelegt -> unteres und oberes Quartil
+  G_u <- quantile(x, 0.25)
+  G_o <- quantile(x, 0.75)
+  # dann wird der Vektor an den Quartilen aufgeteilt, bis unteres Quartil "niedrig"
+  # dann "mittel" und ab oberen Quartil "hoch"
+  cut(x, breaks = c(min(x)-1, G_u, G_o, max(x)+1), labels = c("niedrig","mittel","hoch"))
+}
+
+
+fun6 <- function(x){
+  barplot(table(x))
+}
