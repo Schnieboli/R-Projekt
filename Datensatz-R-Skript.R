@@ -1,4 +1,3 @@
-setwd("C:/Users/nilsh/Desktop/Studium/3. Semester/Wissenschaftliches Arbeiten/GitHUB Projekt")
 set.seed(314)
 Alter <- floor(rnorm(100, 25, 4))
 Studienfach <- sample(c("Statistik","Data Science","Mathe","Informatik"), 100, replace = T, prob = c(0.3,0.3,0.15,0.25))
@@ -41,5 +40,3 @@ MatheLK <- factor(Funkt_MatheLK(), levels = c(0,1), labels = c("nein","ja"))
 
 
 Datensatz <- data.frame(Alter = Alter, Studienfach = Studienfach, Int_Mathe = Int_Mathe, Int_Programmieren = Int_Programmieren, MatheLK = MatheLK)
-
-write.csv2(Datensatz, file="Datensatz.csv")
