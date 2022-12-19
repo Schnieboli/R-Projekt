@@ -1,0 +1,1 @@
+# hier koennen alle ihre Funktionen zur Auswertung des Datensatzes benutzen
