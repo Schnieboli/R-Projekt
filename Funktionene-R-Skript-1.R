@@ -76,5 +76,6 @@ fun5 <- function(x){
 
 
 fun6 <- function(x){
+  # erstellt einen Barplot von einer kategoriellen Variable
   barplot(table(x))
 }
