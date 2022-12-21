@@ -35,3 +35,11 @@ fun2(Datensatz)
 ## ca. 30% Data Science, 30% Informatik, 25% Statistik und 15% Mathematik erzeugt wurde.
 
 ## Die Aufteilung des Merkmals des Mathe-LKs ist ungefähr 85% ja, 15% nein.
+
+fun3(Datensatz)
+
+ #Der Anteil der Statistik Studierenden die den Mathe-LK belegt haben beträgt:     84.61538 %
+ #Der Anteil der Data Science Studierenden die den Mathe-LK belegt haben beträgt:  79.31034 %
+ #Der Anteil der Mathematik Studierenden die den Mathe-LK belegt haben beträgt:    92.85714 %
+ #Der Anteil der Informatik Studierenden die den Mathe-LK belegt haben beträgt:    90.32258 %
+
