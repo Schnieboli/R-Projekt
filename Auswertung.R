@@ -60,8 +60,14 @@ fun4(Datensatz)
 ##Bei den Studierenden mit Mathe-LK ist das Interesse an der Mathematik geringfügig höher als an das Interesse am Programmieren.
 ##Bei der Studierenden ohne Mathe-LK ist das Interess an der Mathematik und das Interesse am Programmieren gleich.
 
+##
 
 
 
 
+
+
+##Visualisierung von drei oder vier kategoriale Variablen
+
+fun6(Datensatz$Alter)
 
