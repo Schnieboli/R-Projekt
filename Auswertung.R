@@ -44,6 +44,21 @@ fun3(Datensatz)
 ##80% der Studierenden im Studiengang Data Science das Ergebnis der Auswertung.
 
 
+##Analyse der Zusammenhänge zwischen "Interesse an Mathematik" und Mathe-LK und "Interesse am Programmieren" und Mathe-LK
+
+fun4(Datensatz)
+
+#Mit Mathe-LK: 
+#Durchschnittsinteresse Mathe: 5.267 
+#Durchschnittsinteresse Programmieren: 5.605 
+#Ohne Mathe-LK: 
+#Durchschnittsinteresse Mathe: 5.643 
+#Durchschnittsinteresse Programmieren: 5.643
+
+##Auf einer Skala von 1 (sehr gering) bis 7 (sehr hoch) wurden die Variablen "Interesse an Mathematik" und "Interesse am Programmieren"
+##angegeben und der Durchschnitt berechnet. 
+##Bei den Studierenden mit Mathe-LK ist das Interesse an der Mathematik geringfügig höher als an das Interesse am Programmieren.
+##Bei der Studierenden ohne Mathe-LK ist das Interess an der Mathematik und das Interesse am Programmieren gleich.
 
 
 
