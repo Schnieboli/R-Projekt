@@ -11,13 +11,6 @@ fun1(Datensatz$Alter)
 # Das Maximum des Vektors ist 33. 
 # Die Range des Vektors ist 18.
 
-fun6(Datensatz$Alter)
-
-## Man erkennt im Barplot eine fast symmetrische Häufigkeit um den Wert 25,
-## was auf eine Normalverteilung mit Mittelwert 25 mit zugehöriger Standardabweichung von ca. 4 schließen lässt.
-
-
-
 
 ## Analyse des Studienfaches/Mathe-LKs
 
@@ -36,10 +29,24 @@ fun2(Datensatz)
 
 ## Die Aufteilung des Merkmals des Mathe-LKs ist ungefähr 85% ja, 15% nein.
 
+
+##Analyse des Zusammenhangs zwischen Studienfach und Mathe-LK
+
 fun3(Datensatz)
 
  #Der Anteil der Statistik Studierenden die den Mathe-LK belegt haben beträgt:     84.61538 %
  #Der Anteil der Data Science Studierenden die den Mathe-LK belegt haben beträgt:  79.31034 %
  #Der Anteil der Mathematik Studierenden die den Mathe-LK belegt haben beträgt:    92.85714 %
  #Der Anteil der Informatik Studierenden die den Mathe-LK belegt haben beträgt:    90.32258 %
+
+##Der höchste Anteil der Studierenden, die in der Schule Mathe-LK belegt hatten, finden wir im Studiengang der Mathematik mit 93%.
+##Weiter ist der Anteil von 90 % Mathe-LK Teilnehmer im Studiengang Informatik, 85% der Studierenden des Studiengangs Statistik und 
+##80% der Studierenden im Studiengang Data Science das Ergebnis der Auswertung.
+
+
+
+
+
+
+
 
