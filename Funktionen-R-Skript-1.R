@@ -67,7 +67,7 @@ fun4 <- function(x){
   cat("Mit Mathe-LK:\n", 
       "\nDurchschnittsinteresse Mathe:         ", a, 
       "\nDurchschnittsinteresse Programmieren: ", b,
-      "\nOhne Mathe-LK:\n", 
+      "\n\nOhne Mathe-LK:\n", 
       "\nDurchschnittsinteresse Mathe:         ", c, 
       "\nDurchschnittsinteresse Programmieren: ", d)
    # Ausgabe der Ergebnisse
