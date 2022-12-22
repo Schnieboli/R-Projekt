@@ -40,7 +40,7 @@ fun2(Datensatz)
 ## Die Aufteilung des Merkmals des Mathe-LKs ist ungefähr 85% ja, 15% nein.
 
 
-## Analyse des Zusammenhangs zwischen Studienfach und Mathe-LK
+## Analyse des Zusammenhangs zwischen Studienfach und Mathe-LK:
 
 fun3(Datensatz)
 
@@ -54,7 +54,7 @@ fun3(Datensatz)
 ## im Studiengang Data Science 80%.
 
 
-## Analyse von Interessen an Mathematik und Programmieren
+## Analyse von Interessen an Mathematik und Programmieren:
 
 fun1(Datensatz$Int_Mathe)
 
@@ -65,7 +65,7 @@ fun1(Datensatz$Int_Mathe)
 # Das Maximum des Vektors ist  7. 
 # Die Range des Vektors ist    5.
 
-## Das Durchschnittliche Interesse an Mathematik liegt bei 5.32 . Von einer Skala von 1 (sehr gering) bis 7 (sehr hoch) sind alle Werte außer 1 vertreten.
+## Das durchschnittliche Interesse an Mathematik liegt bei 5.32 . Von einer Skala von 1 (sehr gering) bis 7 (sehr hoch) sind alle Werte außer 1 vertreten.
 
 fun1(Datensatz$Int_Programmieren)
 
@@ -76,12 +76,12 @@ fun1(Datensatz$Int_Programmieren)
 # Das Maximum des Vektors ist  7. 
 # Die Range des Vektors ist    5.
 
-## Das Durchschnittliche Interesse an Informatik liegt bei 5.32 . Von einer Skala von 1 (sehr gering) bis 7 (sehr hoch) sind alle Werte außer 1 vertreten.
-## Auch sieht man das im Durchschnitt das Interesse an Informatik (ca. 5.6) etwas höher ist als das Interesse an Mathematik (ca. 5.3).
+## Das durchschnittliche Interesse an Informatik liegt bei 5.32 . Von einer Skala von 1 (sehr gering) bis 7 (sehr hoch) sind alle Werte außer 1 vertreten.
+## Auch sieht man, dass im Durchschnitt das Interesse an Informatik (ca. 5.6) etwas höher ist, als das Interesse an Mathematik (ca. 5.3).
 
 
 
-## Analyse der Zusammenhänge zwischen "Interesse an Mathematik" und Mathe-LK und "Interesse am Programmieren" und Mathe-LK
+## Analyse der Zusammenhänge zwischen "Interesse an Mathematik" und Mathe-LK und "Interesse am Programmieren" und Mathe-LK:
 
 fun4(Datensatz)
 
@@ -101,12 +101,12 @@ fun4(Datensatz)
 ## als an das Interesse am Programmieren (ca. 5.6), (Unterschied ca. 7%).
 ## Hierbei sind die Interessen der Studenten die den Mathe LK belegt haben, ähnlich mit den allgemeinen Durchschnitten.
 ## Bei den Studierenden ohne Mathe-LK ist das Interesse an der Mathematik und das Interesse am Programmieren gleich (ca. 5.65).
-## Außerdem ist hier das Interesse an Mathematik überdurchschnittlich hoch das es ca. 0.3 Punkte über dem durchschnittlichen Mathe-Interesse liegt.
+## Außerdem ist hier das Interesse an Mathematik überdurchschnittlich hoch. Es liegt ca. 0.3 Punkte über dem durchschnittlichen Mathe-Interesse.
 
 
 ##Analyse einer ordinal skalierten Variable in "niedrig", "mittel" und "hoch", hier die Variable "Interesse an der Mathematik".
 
-##Anwendung unserer Helfer-Funktion aus dem Fuktionen-R-Skript 2
+##Anwendung unserer Helfer-Funktion "Grenzfunktion" aus dem Fuktionen-R-Skript 2:
 
 Grenzfunktion(Datensatz$Int_Mathe)
  
@@ -123,7 +123,7 @@ fun5(Datensatz$Int_Mathe)
 # [97] mittel  mittel  niedrig mittel 
 # Levels: niedrig mittel hoch
 
-##Einteilung der Ergebnisse in die drei vorgegebenen Levels
+##Als Ergebnis erhalten wir die Auswertung der Ergebnisse in die drei vorgegebenen Levels.
 
 ##Visualisierung von drei oder vier kategoriale Variablen
 
