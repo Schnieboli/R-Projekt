@@ -76,12 +76,13 @@ fun1(Datensatz$Int_Programmieren)
 # Das Maximum des Vektors ist  7. 
 # Die Range des Vektors ist    5.
 
-## Das durchschnittliche Interesse an Informatik liegt bei 5.32 . Von einer Skala von 1 (sehr gering) bis 7 (sehr hoch) sind alle Werte außer 1 vertreten.
-## Auch sieht man, dass im Durchschnitt das Interesse an Informatik (ca. 5.6) etwas höher ist, als das Interesse an Mathematik (ca. 5.3).
+## Das durchschnittliche Interesse an Programmieren liegt bei 5.61. Von einer Skala von 1 (sehr gering) bis 7 (sehr hoch) sind alle Werte außer 1 vertreten.
+
+## Auch sieht man, dass im Durchschnitt das Interesse an Programmieren (ca. 5.6) etwas höher ist, als das Interesse an Mathematik (ca. 5.3).
 
 
 
-## Analyse der Zusammenhänge zwischen "Interesse an Mathematik" und Mathe-LK und "Interesse am Programmieren" und Mathe-LK:
+## Analyse der Zusammenhänge zwischen "Interesse an Mathematik" und Mathe-LK und "Interesse an Programmieren" und Mathe-LK:
 
 fun4(Datensatz)
 
@@ -103,10 +104,47 @@ fun4(Datensatz)
 ## Bei den Studierenden ohne Mathe-LK ist das Interesse an der Mathematik und das Interesse an Programmieren gleich (ca. 5.65).
 ## Außerdem ist hier das Interesse an Mathematik überdurchschnittlich hoch. Es liegt ca. 0.3 Punkte über dem durchschnittlichen Mathe-Interesse.
 
+## Analyse des Zusammenhangs von Studiengang und Interessen an Mathematik / Programmieren
 
-##Analyse einer ordinal skalierten Variable in "niedrig", "mittel" und "hoch", hier die Variable "Interesse an der Mathematik".
+fun7(Datensatz)
 
-##Anwendung unserer Helfer-Funktion "Grenzfunktion" aus dem Fuktionen-R-Skript 2:
+# Studiengang Statistik:
+#   
+# Durchschnittsinteresse Mathe:          6 
+# Durchschnittsinteresse Programmieren:  5.115 
+# 
+# Studiengang Mathematik:
+#   
+# Durchschnittsinteresse Mathe:          6.5 
+# Durchschnittsinteresse Programmieren:  4.714 
+# 
+# Studiengang Data Science:
+#   
+# Durchschnittsinteresse Mathe:          4.724 
+# Durchschnittsinteresse Programmieren:  5.793 
+# 
+# Studiengang Informatik:
+#   
+# Durchschnittsinteresse Mathe:          4.774 
+# Durchschnittsinteresse Programmieren:  6.258
+
+## Die Statistiker haben ein überdurchschnittlich hohes Interesse an Mathematik (+ 0,7),
+## dafür jedoch ein unterdurchschnittliches Interesse an Programmieren (- 0,2).
+
+## Wie zu erwarten haben die Mathematiker ein stark überdurchschnittliches Interesse an Mathematik (+ 1,2),
+## jedoch auch ein stark unterduchschnittliches Interesse an Programmieren (- 0,9).
+
+## Die Data Scientist haben ein stark unterdurchschnittliches Interesse an Mathematik (- 0,5),
+## andererseits aber ein leicht überdurchschnittliches Interesse an Programmieren(+ 0,2).
+
+## Die Informatiker haben ein stark unterdurchschnittliches Interesse an Mathematik (- 0,6), 
+## dafür jedoch auch ein stark überdurchschnittliches Interesse an Programmieren (+ 0,7).
+
+
+
+## Analyse einer ordinal skalierten Variable in "niedrig", "mittel" und "hoch", hier die Variable "Interesse an der Mathematik".
+
+## Anwendung unserer Helfer-Funktion "Grenzfunktion" aus dem Fuktionen-R-Skript 2:
 
 Grenzfunktion(Datensatz$Int_Mathe)
  
@@ -123,16 +161,16 @@ fun5(Datensatz$Int_Mathe)
 # [97] mittel  mittel  niedrig mittel 
 # Levels: niedrig mittel hoch
 
-##Als Ergebnis erhalten wir die Auswertung der Ergebnisse in die drei vorgegebenen Levels.
+## Als Ergebnis erhalten wir die Auswertung der Ergebnisse in die drei vorgegebenen Levels.
 
-##Ausgabe des Ergebnisses als grafische Darstellung:
+## Ausgabe des Ergebnisses als grafische Darstellung:
 fun6(fun5(Datensatz$Int_Mathe))
 
-##Barplot mit dem grafischen Ergebnis, dass die Teilnehmer überwiegend "mittel" ausgewählt haben.
+## Barplot mit dem grafischen Ergebnis, dass die Teilnehmer überwiegend "mittel" ausgewählt haben.
 
 
-##Analyse einer ordinal skalierten Variable in "niedrig", "mittel" und "hoch", hier die Variable "Interesse an Programmieren"
-##Anwendung unserer Helfer-Funktion "Grenzfunktion" aus dem Funktionen-R-Skript 2:
+## Analyse einer ordinal skalierten Variable in "niedrig", "mittel" und "hoch", hier die Variable "Interesse an Programmieren"
+## Anwendung unserer Helfer-Funktion "Grenzfunktion" aus dem Funktionen-R-Skript 2:
 
 Grenzfunktion(Datensatz$Int_Programmieren)
 
@@ -149,15 +187,10 @@ fun5(Datensatz$Int_Programmieren)
  #[97] niedrig mittel  mittel  mittel 
 # Levels: niedrig mittel hoch
 
-##Als Ergebnis erhalten wir auch hier die Auswertung in die drei vorgegebenen Levels.
+## Als Ergebnis erhalten wir auch hier die Auswertung in die drei vorgegebenen Levels.
 
-##Ausgabe des Ergebnisses als grafische Darstellung:
+## Ausgabe des Ergebnisses als grafische Darstellung:
 
 fun6(fun5(Datensatz$Int_Programmieren))
 
 ##Barplot mit dem grafischen Ergebnis, dass die Teilnehmer sich zu 60% für mittel und 40% für niedrig entschieden haben.
-
-##Visualisierung von drei oder vier kategoriale Variablen
-
-fun6(Datensatz$Alter)
-
