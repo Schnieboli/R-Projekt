@@ -103,12 +103,27 @@ fun4(Datensatz)
 ## Bei den Studierenden ohne Mathe-LK ist das Interesse an der Mathematik und das Interesse am Programmieren gleich (ca. 5.65).
 ## Außerdem ist hier das Interesse an Mathematik überdurchschnittlich hoch das es ca. 0.3 Punkte über dem durchschnittlichen Mathe-Interesse liegt.
 
-##
 
+##Analyse einer ordinal skalierten Variable in "niedrig", "mittel" und "hoch", hier die Variable "Interesse an der Mathematik".
 
+##Anwendung unserer Helfer-Funktion aus dem Fuktionen-R-Skript 2
 
+Grenzfunktion(Datensatz$Int_Mathe)
+ 
+fun5(Datensatz$Int_Mathe)
 
+#  [1] mittel  niedrig mittel  mittel  niedrig mittel  niedrig mittel  hoch    mittel  mittel  hoch   
+# [13] niedrig mittel  mittel  niedrig hoch    mittel  hoch    hoch    niedrig niedrig mittel  mittel 
+# [25] mittel  mittel  mittel  mittel  mittel  niedrig mittel  hoch    mittel  hoch    mittel  mittel 
+# [37] mittel  niedrig mittel  hoch    mittel  mittel  hoch    niedrig niedrig mittel  mittel  mittel 
+# [49] mittel  niedrig hoch    niedrig mittel  hoch    mittel  mittel  niedrig niedrig mittel  mittel 
+# [61] niedrig niedrig mittel  mittel  mittel  hoch    mittel  mittel  mittel  niedrig mittel  mittel 
+# [73] hoch    mittel  hoch    mittel  mittel  hoch    niedrig niedrig hoch    mittel  mittel  mittel 
+# [85] mittel  mittel  mittel  niedrig niedrig hoch    niedrig mittel  mittel  hoch    mittel  niedrig
+# [97] mittel  mittel  niedrig mittel 
+# Levels: niedrig mittel hoch
 
+##Einteilung der Ergebnisse in die drei vorgegebenen Levels
 
 ##Visualisierung von drei oder vier kategoriale Variablen
 
