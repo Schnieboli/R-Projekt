@@ -7,9 +7,12 @@ fun1 <- function(x){
   d <- max(x)
   e <- sd(x)
   # Berechnung verschiedener Kennwerte
-  cat("Das arithmetische Mittel ist ", a, ".\nDer Median ist ", b,
-      ".\nDie Standardabweichung ist ",e,".\nDas Minimum des Vektors ist ", c, ". \nDas Maximum des Vektors ist ", d,
-      ". \nDie Range des Vektors ist ", d-c, ".", sep = "")
+  cat("Das arithmetische Mittel ist ", a, ".\n
+       Der Median ist               ", b, ".\n
+       Die Standardabweichung ist   ", e, ".\n
+       Das Minimum des Vektors ist  ", c, ".\n
+       Das Maximum des Vektors ist  ", d, ".\n
+       Die Range des Vektors ist    ", d-c, ".", sep = "")
   # Ausgabe der Ergebnisse
 }
 
@@ -61,8 +64,12 @@ fun4 <- function(x){
   # Durchschnittsinteresse für Mathematik, wenn sie kein Mathe-LK hatten.
   d <- round(mean(x$Int_Programmieren[x$MatheLK == "nein"]),3)
   # Durchschnittsinteresse für Programmieren, wenn sie kein Mathe-LK hatten.
-  cat("Mit Mathe-LK:", "\nDurchschnittsinteresse Mathe:", a, "\nDurchschnittsinteresse Programmieren:", b,
-      "\nOhne Mathe-LK:", "\nDurchschnittsinteresse Mathe:", c, "\nDurchschnittsinteresse Programmieren:", d)
+  cat("Mit Mathe-LK:\n", 
+      "\nDurchschnittsinteresse Mathe:         ", a, 
+      "\nDurchschnittsinteresse Programmieren: ", b,
+      "\nOhne Mathe-LK:\n", 
+      "\nDurchschnittsinteresse Mathe:         ", c, 
+      "\nDurchschnittsinteresse Programmieren: ", d)
    # Ausgabe der Ergebnisse
 }
 
