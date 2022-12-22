@@ -95,12 +95,12 @@ fun4(Datensatz)
 # Durchschnittsinteresse Mathe:         5.643 
 # Durchschnittsinteresse Programmieren: 5.643
 
-## Auf einer Skala von 1 (sehr gering) bis 7 (sehr hoch) wurden die Variablen "Interesse an Mathematik" und "Interesse am Programmieren"
+## Auf einer Skala von 1 (sehr gering) bis 7 (sehr hoch) wurden die Variablen "Interesse an Mathematik" und "Interesse an Programmieren"
 ## angegeben und der Durchschnitt berechnet. 
 ## Bei den Studierenden mit Mathe-LK ist das Interesse an der Mathematik (ca. 5.25), geringfügig geringer, 
-## als an das Interesse am Programmieren (ca. 5.6), (Unterschied ca. 7%).
+## als an das Interesse an Programmieren (ca. 5.6), (Unterschied ca. 7%).
 ## Hierbei sind die Interessen der Studenten die den Mathe LK belegt haben, ähnlich mit den allgemeinen Durchschnitten.
-## Bei den Studierenden ohne Mathe-LK ist das Interesse an der Mathematik und das Interesse am Programmieren gleich (ca. 5.65).
+## Bei den Studierenden ohne Mathe-LK ist das Interesse an der Mathematik und das Interesse an Programmieren gleich (ca. 5.65).
 ## Außerdem ist hier das Interesse an Mathematik überdurchschnittlich hoch. Es liegt ca. 0.3 Punkte über dem durchschnittlichen Mathe-Interesse.
 
 
@@ -124,6 +124,28 @@ fun5(Datensatz$Int_Mathe)
 # Levels: niedrig mittel hoch
 
 ##Als Ergebnis erhalten wir die Auswertung der Ergebnisse in die drei vorgegebenen Levels.
+
+
+##Analyse einer ordinal skalierten Variable in "niedrig", "mittel" und "hoch", hier die Variable "Interesse an Programmieren"
+##Anwendung unserer Helfer-Funktion "Grenzfunktion" aus dem Funktionen-R-Skript 2:
+
+Grenzfunktion(Datensatz$Int_Programmieren)
+
+fun5(Datensatz$Int_Programmieren)
+
+ # [1] niedrig niedrig niedrig mittel  niedrig mittel  mittel  mittel  niedrig mittel  niedrig niedrig
+ #[13] mittel  mittel  mittel  mittel  mittel  niedrig mittel  mittel  mittel  mittel  mittel  mittel 
+ #[25] niedrig mittel  niedrig mittel  mittel  mittel  mittel  niedrig niedrig niedrig mittel  mittel 
+ #[37] mittel  mittel  niedrig niedrig mittel  mittel  niedrig mittel  niedrig mittel  mittel  mittel 
+ #[49] mittel  mittel  niedrig niedrig mittel  niedrig niedrig niedrig niedrig mittel  mittel  mittel 
+ #[61] mittel  mittel  mittel  niedrig mittel  mittel  niedrig niedrig niedrig mittel  mittel  niedrig
+ #[73] niedrig niedrig niedrig niedrig mittel  niedrig mittel  mittel  mittel  niedrig mittel  niedrig
+ #[85] mittel  mittel  niedrig mittel  mittel  niedrig mittel  mittel  niedrig niedrig niedrig mittel 
+ #[97] niedrig mittel  mittel  mittel 
+# Levels: niedrig mittel hoch
+
+##Als Ergebnis erhalten wir auch hier die Auswertung in die drei vorgegebenen Levels.
+
 
 ##Visualisierung von drei oder vier kategoriale Variablen
 
