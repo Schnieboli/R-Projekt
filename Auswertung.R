@@ -125,6 +125,11 @@ fun5(Datensatz$Int_Mathe)
 
 ##Als Ergebnis erhalten wir die Auswertung der Ergebnisse in die drei vorgegebenen Levels.
 
+##Ausgabe des Ergebnisses als grafische Darstellung:
+fun6(fun5(Datensatz$Int_Mathe))
+
+##Barplot mit dem grafischen Ergebnis, dass die Teilnehmer überwiegend "mittel" ausgewählt haben.
+
 
 ##Analyse einer ordinal skalierten Variable in "niedrig", "mittel" und "hoch", hier die Variable "Interesse an Programmieren"
 ##Anwendung unserer Helfer-Funktion "Grenzfunktion" aus dem Funktionen-R-Skript 2:
@@ -146,6 +151,11 @@ fun5(Datensatz$Int_Programmieren)
 
 ##Als Ergebnis erhalten wir auch hier die Auswertung in die drei vorgegebenen Levels.
 
+##Ausgabe des Ergebnisses als grafische Darstellung:
+
+fun6(fun5(Datensatz$Int_Programmieren))
+
+##Barplot mit dem grafischen Ergebnis, dass die Teilnehmer sich zu 60% für mittel und 40% für niedrig entschieden haben.
 
 ##Visualisierung von drei oder vier kategoriale Variablen
 
