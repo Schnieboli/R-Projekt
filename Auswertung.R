@@ -5,11 +5,11 @@
 fun1(Datensatz$Alter)
 
 # Das arithmetische Mittel ist 24.38.
-# Der Median ist 25.
-# Die Standardabweichung ist 4.062094.
-# Das Minimum des Vektors ist 15. 
-# Das Maximum des Vektors ist 33. 
-# Die Range des Vektors ist 18.
+# Der Median ist               25.
+# Die Standardabweichung ist   4.062094.
+# Das Minimum des Vektors ist  15. 
+# Das Maximum des Vektors ist  33. 
+# Die Range des Vektors ist    18.
 
 ## Das artithmetische Mittel (24.38) liegt knapp unter dem Median (25). Das Alter ist mit einer Standardabweichung von ca. 4 weder eng beisammen, 
 ## noch weit gestreut. Die Jüngste Person ist 15 Jahre als, was vermutlich durch eine symmterische Verteilung verursacht wurde da, die älteste Person 33 Jahre alt ist.
@@ -59,22 +59,22 @@ fun3(Datensatz)
 fun1(Datensatz$Int_Mathe)
 
 # Das arithmetische Mittel ist 5.32.
-# Der Median ist 5.5.
-# Die Standardabweichung ist 1.254326.
-# Das Minimum des Vektors ist 2. 
-# Das Maximum des Vektors ist 7. 
-# Die Range des Vektors ist 5.
+# Der Median ist               5.5.
+# Die Standardabweichung ist   1.254326.
+# Das Minimum des Vektors ist  2. 
+# Das Maximum des Vektors ist  7. 
+# Die Range des Vektors ist    5.
 
 ## Das Durchschnittliche Interesse an Mathematik liegt bei 5.32 . Von einer Skala von 1 (sehr gering) bis 7 (sehr hoch) sind alle Werte außer 1 vertreten.
 
 fun1(Datensatz$Int_Programmieren)
 
 # Das arithmetische Mittel ist 5.61.
-# Der Median ist 6.
-# Die Standardabweichung ist 1.213518.
-# Das Minimum des Vektors ist 2. 
-# Das Maximum des Vektors ist 7. 
-# Die Range des Vektors ist 5.
+# Der Median ist               6.
+# Die Standardabweichung ist   1.213518.
+# Das Minimum des Vektors ist  2. 
+# Das Maximum des Vektors ist  7. 
+# Die Range des Vektors ist    5.
 
 ## Das Durchschnittliche Interesse an Informatik liegt bei 5.32 . Von einer Skala von 1 (sehr gering) bis 7 (sehr hoch) sind alle Werte außer 1 vertreten.
 ## Auch sieht man das im Durchschnitt das Interesse an Informatik (ca. 5.6) etwas höher ist als das Interesse an Mathematik (ca. 5.3).
@@ -85,11 +85,14 @@ fun1(Datensatz$Int_Programmieren)
 
 fun4(Datensatz)
 
-# Mit Mathe-LK: 
-# Durchschnittsinteresse Mathe: 5.267 
-# Durchschnittsinteresse Programmieren: 5.605 
-# Ohne Mathe-LK: 
-# Durchschnittsinteresse Mathe: 5.643 
+# Mit Mathe-LK:
+
+# Durchschnittsinteresse Mathe:         5.267 
+# Durchschnittsinteresse Programmieren: 5.605
+
+# Ohne Mathe-LK:
+
+# Durchschnittsinteresse Mathe:         5.643 
 # Durchschnittsinteresse Programmieren: 5.643
 
 ## Auf einer Skala von 1 (sehr gering) bis 7 (sehr hoch) wurden die Variablen "Interesse an Mathematik" und "Interesse am Programmieren"
