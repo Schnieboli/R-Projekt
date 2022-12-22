@@ -86,3 +86,35 @@ fun6 <- function(x){
   # erstellt einen Barplot von einer kategoriellen Variable
   barplot(table(x))
 }
+
+fun7 <- function(x){
+  a <- round(mean(x$Int_Mathe[x$Studienfach == "Statistik"]),3)
+  # Durchschnittsinteresse für Mathematik, von Studenten im Studiengang Statistik.
+  b <- round(mean(x$Int_Programmieren[x$Studienfach == "Statistik"]),3)
+  # Durchschnittsinteresse für Programmieren, von Studenten im Studiengang Statistik.
+  c <- round(mean(x$Int_Mathe[x$Studienfach == "Mathe"]),3)
+  # Durchschnittsinteresse für Mathematik, von Studenten im Studiengang Mathematik.
+  d <- round(mean(x$Int_Programmieren[x$Studienfach == "Mathe"]),3)
+  # Durchschnittsinteresse für Programmieren, von Studenten im Studiengang Mathematik.
+  e <- round(mean(x$Int_Mathe[x$Studienfach == "Data Science"]),3)
+  # Durchschnittsinteresse für Mathematik, von Studenten im Studiengang Data Science.
+  f <- round(mean(x$Int_Programmieren[x$Studienfach == "Data Science"]),3)
+  # Durchschnittsinteresse für Programmieren, von Studenten im Studiengang Data Science.
+  g <- round(mean(x$Int_Mathe[x$Studienfach == "Informatik"]),3)
+  # Durchschnittsinteresse für Mathematik, von Studenten im Studiengang Informatik.
+  h <- round(mean(x$Int_Programmieren[x$Studienfach == "Informatik"]),3)
+  # Durchschnittsinteresse für Programmieren, von Studenten im Studiengang Informatik.
+  cat("\nStudiengang Statistik:\n", 
+      "\nDurchschnittsinteresse Mathe:         ", a, 
+      "\nDurchschnittsinteresse Programmieren: ", b,
+      "\n\nStudiengang Mathematik:\n", 
+      "\nDurchschnittsinteresse Mathe:         ", c, 
+      "\nDurchschnittsinteresse Programmieren: ", d,
+      "\n\nStudiengang Data Science:\n", 
+      "\nDurchschnittsinteresse Mathe:         ", e, 
+      "\nDurchschnittsinteresse Programmieren: ", f,
+      "\n\nStudiengang Informatik:\n", 
+      "\nDurchschnittsinteresse Mathe:         ", g, 
+      "\nDurchschnittsinteresse Programmieren: ", h)
+  # Ausgabe der Ergebnisse
+}
